@@ -6,8 +6,8 @@ namespace RunShellCmd
     {
         static void Main(string[] args)
         {
-             "cat /etc/os-release".Bash();
-            //Console.WriteLine(output);
+             var output = "cat /etc/os-release".Bash();
+            Console.WriteLine(output);
         }
     }
 }
